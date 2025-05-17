@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { BellIcon, InformationCircleIcon, MenuIcon } from '@heroicons/react/outline';
 import logo from '../assets/bitcoin-01.png';
 import Image from "../assets/Ellipse 1.png"
+import { Bars3Icon, BellIcon, InformationCircleIcon } from '@heroicons/react/24/outline';
 export default function Header({ setSidebarOpen }) {
   return (
     <div className="w-full bg-gradient-to-r from-[#07050B] to-[#4D377A]">
@@ -15,7 +15,8 @@ export default function Header({ setSidebarOpen }) {
         </div>
         <div>
         <button onClick={() => setSidebarOpen(true)}>
-          <MenuIcon className="w-6 h-6 text-white" />
+          <Bars3Icon className="w-6 h-6 text-white" />
+
         </button>
         </div>
           </div>

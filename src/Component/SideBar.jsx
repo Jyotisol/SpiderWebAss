@@ -1,6 +1,6 @@
 import React,{ useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { ChevronDownIcon, ArrowLeftIcon } from '@heroicons/react/outline';
+import { ChevronDownIcon, ArrowLeftIcon } from '@heroicons/react/24/outline';
 import line from "../assets/Vector.png";
 
 const sidebarItems = [

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { EyeIcon } from '@heroicons/react/outline';
+import { EyeIcon } from '@heroicons/react/24/outline';
 import Pagination from './Pagination';
 
 const rows = Array.from({ length: 12 }).map((_, i) => ({
